@@ -1,0 +1,220 @@
+:root {
+  --color-white: #ffffff;
+  --color-accent: #ff6c00;
+  --color-black: #303030;
+  --color-dark-grey: #555555;
+  --color-grey: #9da4bd;
+  --color-grey-transparent: rgba(157, 164, 189, 0.6);
+  --background-color-grey: #f7f7f7;
+  --background-dark-grey: #191c26;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link,
+.address {
+  text-decoration: none;
+  font-style: inherit;
+  color: inherit;
+}
+/* Styles Header */
+.header {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--color-white);
+  background-color: var(--color-dark-grey);
+}
+.button {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: inherit;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: inherit;
+  border-color: var(--color-accent);
+  cursor: pointer;
+}
+.button-header {
+  color: inherit;
+}
+.nav-list-item:hover,
+.nav-list-item:focus,
+.phone:hover,
+.phone:focus,
+.button:hover,
+.button:focus {
+  color: var(--color-accent);
+}
+/* Styles Hero section */
+.hero {
+  background-color: var(--color-dark-grey);
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero-subtitle {
+  color: var(--color-grey-transparent);
+}
+.hero-title {
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--color-grey);
+}
+.hero-socials {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  background-color: #ffffff;
+}
+.hero-socials:hover,
+.hero-socials:focus {
+  color: var(--color-accent);
+}
+/* Styles About section */
+.title {
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.about-text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--color-dark-grey);
+}
+.about-desc {
+  color: var(--color-dark-grey);
+}
+
+.button-about {
+  color: var(--color-black);
+}
+/* Styles Services and prices section */
+.price {
+  background-color: var(--color-dark-grey);
+}
+.price-subtitle {
+  color: var(--color-grey-transparent);
+}
+.price-title {
+  color: var(--color-white);
+}
+.price-list-item {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--color-grey);
+}
+.button-price {
+  color: var(--color-white);
+}
+/* Styles Advantage section */
+.advantage-item {
+  background-color: var(--background-color-grey);
+  text-align: center;
+}
+.advantage-item-value {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+}
+.advantage-accent {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  color: var(--color-accent);
+}
+.advantage-item-desc {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.advantage-text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--color-dark-grey);
+}
+/* Styles Barbers section */
+.barbers-name {
+  font-size: 18px;
+  line-height: 1.39;
+}
+.barbers-role {
+  line-height: 1.36;
+  color: var(--color-accent);
+}
+/* Styles Examples section */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* Styles Contacts section */
+.contacts {
+  background-color: var(--background-dark-grey);
+  color: var(--color-grey);
+  font-size: 18px;
+  line-height: 1.67;
+}
+.contacts-title {
+  color: var(--color-white);
+}
+.contacts-address {
+  font-weight: 700;
+}
+.contacts-mail {
+  text-decoration: underline;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--color-accent);
+}
+.contacts-subtitle {
+  color: var(--color-white);
+}
+/* Styles Footer */
+.footer {
+  background-color: var(--background-color-grey);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.copyrigt {
+  color: var(--color-grey);
+}
+.footer-socials:hover,
+.footer-socials:focus {
+  color: var(--color-accent);
+}
